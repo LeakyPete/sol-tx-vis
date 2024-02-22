@@ -1,0 +1,123 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: 'Poppins';
+}
+
+body{
+  background: linear-gradient(to right, #a8ff78, #78ffd6);
+  color: #212529;
+}
+
+.header--body{
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  background: #78ffd6;
+  box-shadow: 0px 0px 10px black;
+}
+
+.header--logo{
+  width: 90px;
+}
+
+.header--logo-text {
+  width: 50px;
+}
+
+.header--left {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+}
+
+.header--right{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 10px;
+}
+
+.tx--container {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.tx--input-box{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 600px;
+  height: 200px;
+  background-color: #78ffd6;
+  margin-top: 60px;
+  border-radius: 15px;
+  box-shadow: 0px 0px 10px black;
+}
+
+.tx--input {
+  width: 400px;
+  height: 40px;
+  padding: 10px;
+  border: none;
+  border-radius: 20px;
+  text-align: center;
+  margin-bottom: 10px;
+  color: #212529;
+}
+
+.tx--input::cue {
+  border: none;
+}
+
+.tx--input-btn {
+  width: 200px;
+  height: 40px;
+  border: none;
+  border-radius: 20px;
+  background: #212529;
+  color:#78ffd6
+}
+
+.tx--input-btn:hover {
+  color: #a8ff78;
+  background: #000000;
+  cursor: pointer;
+}
+
+.render--container {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.render--box{
+  display: flex;
+  width: fit-content;
+  height: fit-content;
+  justify-content: center;
+  align-items: center;
+  margin-top: 60px;
+  background: #212529;
+  color: #78ffd6;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0px 0px 10px black;
+}
+
+.render--content{
+  font-weight: lighter;
+  line-height: 40px;
+
+}
+
+span{
+  color: #a8ff78;
+}
